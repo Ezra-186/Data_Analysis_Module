@@ -22,7 +22,7 @@ For my main analysis, the program answers these two questions using the `vgsales
 
 I also tested the program with other CSV files in the `data` folder to make sure it could work with more than one dataset.
 
-[Software Demo Video](ADD_YOUR_VIDEO_LINK_HERE)
+[Software Demo Video](https://www.youtube.com/watch?v=GBkjDOIjLno)
 
 # How to Run
 
@@ -31,7 +31,7 @@ I also tested the program with other CSV files in the `data` folder to make sure
 
 ```bash
 pip install pandas matplotlib
-````
+```
 
 3. Run the program from the project folder:
 
@@ -53,18 +53,18 @@ The program grouped the data by genre and calculated the average global sales fo
 
 Answer:
 
-* Platform: 0.94 million
-* Shooter: 0.79 million
-* Role-Playing: 0.62 million
-* Racing: 0.59 million
-* Sports: 0.57 million
-* Fighting: 0.53 million
-* Action: 0.53 million
-* Misc: 0.47 million
-* Simulation: 0.45 million
-* Puzzle: 0.42 million
-* Strategy: 0.26 million
-* Adventure: 0.19 million
+- Platform: 0.94 million
+- Shooter: 0.79 million
+- Role-Playing: 0.62 million
+- Racing: 0.59 million
+- Sports: 0.57 million
+- Fighting: 0.53 million
+- Action: 0.53 million
+- Misc: 0.47 million
+- Simulation: 0.45 million
+- Puzzle: 0.42 million
+- Strategy: 0.26 million
+- Adventure: 0.19 million
 
 ## Question 2: Which platforms have the most top-selling games?
 
@@ -72,30 +72,30 @@ The program defined top-selling games as the top 100 games by global sales. It t
 
 Answer:
 
-* X360: 16 games
-* Wii: 15 games
-* DS: 13 games
-* PS3: 9 games
-* 3DS: 7 games
-* GB: 6 games
-* PS2: 6 games
-* PS: 5 games
-* PS4: 5 games
-* SNES: 4 games
-* N64: 4 games
-* NES: 4 games
-* GBA: 2 games
-* 2600: 1 game
-* PSP: 1 game
-* PC: 1 game
-* XB: 1 game
+- X360: 16 games
+- Wii: 15 games
+- DS: 13 games
+- PS3: 9 games
+- 3DS: 7 games
+- GB: 6 games
+- PS2: 6 games
+- PS: 5 games
+- PS4: 5 games
+- SNES: 4 games
+- N64: 4 games
+- NES: 4 games
+- GBA: 2 games
+- 2600: 1 game
+- PSP: 1 game
+- PC: 1 game
+- XB: 1 game
 
 Extra details from the analysis:
 
-* Rows used in analysis: 16,598
-* Unique genres: 12
-* Unique platforms: 31
-* Year range in data: 1980 to 2020
+- Rows used in analysis: 16,598
+- Unique genres: 12
+- Unique platforms: 31
+- Year range in data: 1980 to 2020
 
 The top 5 games used in the top-selling platform check were:
 
@@ -113,9 +113,9 @@ The program also saves a graph to:
 
 I tested the program with multiple CSV files in the `data` folder, including:
 
-* `test_games.csv`
-* `vgsales.csv`
-* `steam.csv`
+- `test_games.csv`
+- `vgsales.csv`
+- `steam.csv`
 
 The `vgsales.csv` file was used for the main reported results in this README. The other files were used to test that the program could still load data, detect useful columns, print results, and save a graph.
 
@@ -127,41 +127,19 @@ This project was written in Python 3.
 
 Libraries used:
 
-* pandas
-* matplotlib
+- pandas
+- matplotlib
 
 # Useful Websites
 
-* [Pandas Documentation](https://pandas.pydata.org/docs/)
-* [Matplotlib Documentation](https://matplotlib.org/stable/users/index.html)
-* [Python Documentation](https://docs.python.org/3/)
-* [Kaggle](https://www.kaggle.com/)
+- [Pandas Documentation](https://pandas.pydata.org/docs/)
+- [Matplotlib Documentation](https://matplotlib.org/stable/users/index.html)
+- [Python Documentation](https://docs.python.org/3/)
+- [Kaggle](https://www.kaggle.com/)
 
 # Future Work
 
-* Add a third question for deeper analysis.
-* Improve the graph formatting to make it easier to read.
-* Let the user choose how many top rows to analyze instead of always using 100.
-* Make the graph file name change based on the dataset being used.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Add a third question for deeper analysis.
+- Improve the graph formatting to make it easier to read.
+- Let the user choose how many top rows to analyze instead of always using 100.
+- Make the graph file name change based on the dataset being used.
